@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Home</title>
+    <title>Humidity</title>
   </head>
   <body>
 
@@ -49,60 +49,53 @@
     
         <!-- Row 1 -->
         <div class="row">
-          <div class="col-lg-7">
-              <div class="container-fluid" style="background:#d6d7da">
-                  <h1>Summary: Latitude vs. X</h1>
+          <div class="col-md-7" style="background:#d6d7da">
+                  <h1>Humidity</h1>
                   <hr/>
-                  <p> 
-                      The purpose of this project was to analyze how weather (temperature, cloudiness, humidity) change with respect to latiutde.
-                      To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities with random latitudes.
-                  </p>
-                  <img src="Latitude_vs_Temperature.png" class="img-fluid" alt="...">
+                  <img src="Latitude_vs_Humidity.png" class="img-fluid" alt="...">
                   </br>
                   <p>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. We plotted temperature, cloudiness, wind speed, and humidity.
-                    This site provides the source data and the visulizations created as part of the analysis, as well as the explanations and descriptions of any trends and 
-                    correlations witnessed. 
+                        A less obvious relationship exists here. 
+                        We see the high average humidity clustered around a latitude of 40 degrees, but even at one lattiude value, we see lots of percent humidity values. 
+                        Again, the same of the continents and the proximity to the oceans and ocean currents likely plays a bigger role than latitude itself here
                 </p>
-                </div>
-          </div>
+            </div>
 
-          <div class="col-lg-5" style="background:#d6d7da">
-              <h1>Visulizations </h1>
-              <hr/>
-                <div class="row">
-                    <div class="col-lg-6">
-                      <h3 class="text-center"> <a href="plot1.html">1 Versus Temperature</a></h3>
-                      <img src="Latitude_vs_Temperature.png" class="img-fluid" alt="plot of Latitude vs Temperature"style="border:1px solid black">
-                    </div>
-                    <div class="col-lg-6">
-                        <h3 class="text-center"> <a href="plot2.html">2 Versus  Humidity</a></h3>
-                        <img src="Latitude_vs_Humidity.png" class="img-fluid" alt="plot of Latitude vs Wind Speed">
-                    </div>
+          
+
+            <div class="col-lg-5" style="background:#d6d7da">
+                    <h1>Visulizations </h1>
+                    <hr/>
+                      <div class="row">
+                          <div class="col-lg-6">
+                            <h3 class="text-center"> <a href="plot1.html">1 Versus Temperature</a></h3>
+                            <img src="Latitude_vs_Temperature.png" class="img-fluid" alt="plot of Latitude vs Temperature">
+                          </div>
+                          <div class="col-lg-6">
+                              <h3 class="text-center"> <a href="plot2.html">2 Versus  Humidity</a></h3>
+                              <img src="Latitude_vs_Humidity.png" class="img-fluid" alt="plot of Latitude vs Wind Speed" style="border:1px solid black">
+                          </div>
+                      </div>
+        
+                      <div class="row">
+                              <div class="col-lg-6">
+                                  <h3 class="text-center">  <a href="plot3.html">3 Versus Wind Speed</a></h3>
+                                <img src="Latitude_vs_Wind_Speed.png" class="img-fluid" alt="plot of Latitude vs Temperature">
+                              </div>
+                              <div class="col-lg-6">
+                                  <h3 class="text-center"> <a href="plot4.html">4 Versus Cloudiness</a></h3>
+                                  <img src="Latitude_vs_Cloudiness.png"  class="img-fluid" alt="plot of Latitude vs Cloudiness" >
+                              </div>
+                          </div>
+
+            
+            
+    
                 </div>
-  
-                <div class="row">
-                        <div class="col-lg-6">
-                            <h3 class="text-center">  <a href="plot3.html">3 Versus Wind Speed</a></h3>
-                          <img src="Latitude_vs_Wind_Speed.png" class="img-fluid" alt="plot of Latitude vs Temperature">
-                        </div>
-                        <div class="col-lg-6">
-                            <h3 class="text-center"> <a href="plot4.html">4 Versus Cloudiness</a></h3>
-                            <img src="Latitude_vs_Cloudiness.png"  class="img-fluid" alt="plot of Latitude vs Cloudiness" >
-                        </div>
-                    </div>
                   
-                      
-                  
-                  </br>
-                  <p>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. We plotted temperature, cloudiness, wind speed, and humidity.
-                    This site provides the source data and the visulizations created as part of the analysis, as well as the explanations and descriptions of any trends and 
-                    correlations witnessed. 
-                </p>
-                </div>
-          </div>
-        </div>
+            </div>
+            </div>
+         </div>
     
        
       </div>
